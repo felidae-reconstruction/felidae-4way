@@ -1,0 +1,25 @@
+Oct., 2
+We discussed data structure for experiments.
+Tracks for annotation of separate genomes belong to the down-level of the
+directories hierarchy of the corresponding assembly. Whereas the tracks for
+alignment annotation belongs in the same way to hierarchy of alignment
+experiments.
+Belonging to specie is parental with respect to the date of experiment. 
+We should think out the notation for naming of cactus experiments.
+Cactus experiments are performed on the ucsc cluster whereas the scripts and
+annotations can be executed on the mac1 (mac1.bioinf.pu.ru). The data folders
+are synchronized with rsync.
+Since the experiments are under the version control different users can work
+in the same directory and avoid file naming conflict accurate within the
+version number.
+Examples:
+For assemblies:
+assemblies/lion/date1/track/repeats
+
+For cactus alignments:
+cactus/DHTG/data1/track/mapped_genes/date1
+
+Dog genome masking:
+Use trf for dog genome masking - don’t be afraid to lose genes - the context
+of repeats is exactly what should be aligned
+
